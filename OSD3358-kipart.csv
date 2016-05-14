@@ -43,7 +43,7 @@ F20,OSC1_OUT,output,left,B
 M20,OSC0_IN,input,left,B
 L20,OSC0_GND,power,left,B
 K20,OSC0_OUT,output,left,B
-M5,VPP,power,left,B
+M5,VPP,no_connect,left,B
 G17,MMC0_CLK,bidirectional,right,C
 G18,MMC0_CMD,bidirectional,right,C
 G16,MMC0_DAT0,bidirectional,right,C
@@ -276,10 +276,10 @@ Y10,VSS_Y10,power,left,J
 Y12,VSS_Y12,power,left,J
 Y15,VSS_Y15,power,left,J
 Y18,VSS_Y18,power,left,J
-C10,CAP_VBB_MPU,power,left,K
+C10,CAP_VBB_MPU,no_connect,left,K
 D6,CAP_VDD_RTC,power,left,K
-D9,CAP_VDD_SRAM_CORE,power,left,K
-D11,CAP_VDD_SRAM_MPU,power,left,K
+D9,CAP_VDD_SRAM_CORE,no_connect,left,K
+D11,CAP_VDD_SRAM_MPU,no_connect,left,K
 E10,VDDSHV_3P3V_E10,power_out,left,K
 E11,VDDSHV_3P3V_E11,power_out,left,K
 E12,VDDSHV_3P3V_E12,power_out,left,K
@@ -339,7 +339,7 @@ F10,VDD_MPU_F10,power_out,right,K
 F11,VDD_MPU_F11,power_out,right,K
 F12,VDD_MPU_F12,power_out,right,K
 F13,VDD_MPU_F13,power_out,right,K
-A3,TESTOUT,output,right,L
+A3,TESTOUT,no_connect,right,L
 B1,NC_B1,no_connect,left,L
 B2,NC_B2,no_connect,left,L
 B3,NC_B3,no_connect,left,L
@@ -395,9 +395,9 @@ P4,NC_P4,no_connect,right,L
 U11,NC_U11,no_connect,right,L
 V10,NC_V10,no_connect,right,L
 V11,NC_V11,no_connect,right,L
-Y13,EXTL1A,power,right,L
-Y14,EXTL1B,power,right,L
-Y16,EXTL2A,power,right,L
-Y17,EXTL2B,power,right,L
-Y19,EXTL3A,power,right,L
-Y20,EXTL3B,power,right,L
+Y13,EXTL1A,no_connect,right,L
+Y14,EXTL1B,no_connect,right,L
+Y16,EXTL2A,no_connect,right,L
+Y17,EXTL2B,no_connect,right,L
+Y19,EXTL3A,no_connect,right,L
+Y20,EXTL3B,no_connect,right,L
